@@ -3,9 +3,11 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "resolution_week1_Frxdi"
+name = "resolution_week1_frxdi"
 version = "0.0.1"
-dependencies = []
+dependencies = [
+    "argparse>=1.4.0",
+]
 
 [project.scripts]
-todo = "resolution_week1_Frxdi.main:main"
+todo = "resolution_week1_frxdi.main:main"
